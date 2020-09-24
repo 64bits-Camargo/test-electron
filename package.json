@@ -1,0 +1,25 @@
+{
+  "name": "notes-electron",
+  "version": "1.0.0",
+  "description": "Manager notes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "win": "taskkill /IM electron.exe /F && yarn start || yarn start",
+    "kill": "taskkill /IM electron.exe /F"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/64bits-Camargo/test-electron.git"
+  },
+  "author": "Mateus Camargo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/64bits-Camargo/test-electron/issues"
+  },
+  "homepage": "https://github.com/64bits-Camargo/test-electron#readme",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  }
+}
